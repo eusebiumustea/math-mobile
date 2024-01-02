@@ -15,7 +15,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <StatusBar barStyle={"default"} />
-      <Tab.Navigator safeAreaInsets={{ top: 100 }} detachInactiveScreens={true}>
+      <Tab.Navigator safeAreaInsets={{ top: 80 }} detachInactiveScreens={true}>
         <Tab.Screen
           name="Matrics4x"
           children={() => <Matrics4x />}
